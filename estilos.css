@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(146, 220, 243);
+
+}
+
+article{
+    background-color: white;
+    margin-top:8%;
+    margin-left:35%;
+    margin-right: 35%;    
+    width: 30%;
+    height:700px;    
+    border-color:black;
+    border-width:thin;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+#pagina1{
+    position: absolute; z-index: 2;
+    box-shadow:none;
+    text-align: center;
+
+}
+
+ #pagina1:active{
+    transform: perspective(500px) translate3d(-580px, 0, 0px);
+    box-shadow: 0px 5px 5px 5px grey;
+    
+ }
+
+ #pagina2{
+    position: absolute; z-index: 1;
+    text-align: justify;
+    font-size: 20px;
+    padding-left:5px;
+    padding-right: 5px;
+ }
+
+ article>p{
+    font-size:50px;
+ }
+
+ article>p>img{
+    padding-left:0px;
+    margin-left:0px;
+ }
+
+ article>div>p{    
+    padding-left:5px;
+    padding-right:5px;
+ }
